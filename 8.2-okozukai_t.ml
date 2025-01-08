@@ -1,4 +1,4 @@
-(* 目的： お小遣い帳のデータを格納するレコード型 *)
+(* お小遣い帳のデータを格納するレコード型 *)
 type okozukai_t = {
   name : string ;
   price : int ;

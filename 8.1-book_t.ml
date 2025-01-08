@@ -1,4 +1,4 @@
-(* 目的： 本に関する情報を格納するレコード型 *)
+(* 本に関する情報を格納するレコード型 *)
 type book_t = {
   title : string ;
   author : string ;
