@@ -16,7 +16,7 @@ let ketsueki_hyoji person_t = match person_t with
 (* テスト *)
 let test1 = ketsueki_hyoji {name="田中花子"; height_m=1.65; weight_kg=62.1; birthday="01-21"; bloodtype="AB"}
           = "田中花子さんの血液型はAB型です"
-let test1 = ketsueki_hyoji {name="山田二郎"; height_m=1.65; weight_kg=62.1; birthday="01-21"; bloodtype="A"}
+let test2 = ketsueki_hyoji {name="山田二郎"; height_m=1.65; weight_kg=62.1; birthday="01-21"; bloodtype="A"}
           = "山田二郎さんの血液型はA型です"
-let test1 = ketsueki_hyoji {name="山本太"; height_m=1.65; weight_kg=62.1; birthday="01-21"; bloodtype="O"}
+let test3 = ketsueki_hyoji {name="山本太"; height_m=1.65; weight_kg=62.1; birthday="01-21"; bloodtype="O"}
           = "山本太さんの血液型はO型です"
